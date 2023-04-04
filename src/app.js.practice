@@ -1,0 +1,38 @@
+// import logo from "./logo.svg";
+import "./App.css";
+// import Job from "./components/Job";
+
+function App() {
+  // const age = 99;
+  // const isGreen = false;
+  // const names = ["man2k", "jake", "histom", "rando"];
+  // const users = [
+  //   { name: "mank", age: 33 },
+  //   { name: "man2k", age: 35 },
+  //   { name: "man3k", age: 55 },
+  // ];
+  return (
+    <div className="App">
+      {/* <Job name="Man2K" salary={9999999} /> */}
+      {/* {age >= 18 ? <h1>Adult</h1> : <h1>Not an adult</h1>} */}
+      {/* <h1
+        style={{ color: isGreen ? "green" : "purple", backgroundColor: "red" }}
+      >
+        This has color
+      </h1>
+      {isGreen && <button> Button</button>} */}
+      {/* {names.map((name, key) => {
+        return <h1 key={key}>{name}</h1>;
+      })} */}
+      {/* {users.map((user, key) => {
+        return (
+          <h1 key={key}>
+            {user.name} {user.age}
+          </h1>
+        );
+      })}
+    </div> */}
+  );
+}
+
+export default App;
